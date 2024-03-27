@@ -1,0 +1,109 @@
+INSERT INTO customers (name, contact_details) VALUES
+('John Doe', 'john@example.com'),
+('Jane Smith', 'jane@example.com'),
+('Michael Johnson', 'michael@example.com'),
+('Emily Davis', 'emily@example.com'),
+('Christopher Wilson', 'christopher@example.com'),
+('Sarah Brown', 'sarah@example.com'),
+('David Jones', 'david@example.com'),
+('Jennifer Taylor', 'jennifer@example.com'),
+('Matthew Martinez', 'matthew@example.com'),
+('Jessica Anderson', 'jessica@example.com'),
+('Daniel Thomas', 'daniel@example.com'),
+('Amanda White', 'amanda@example.com'),
+('James Lee', 'james@example.com'),
+('Elizabeth Harris', 'elizabeth@example.com'),
+('Joshua Clark', 'joshua@example.com'),
+('Ashley King', 'ashley@example.com'),
+('Ryan Baker', 'ryan@example.com'),
+('Lauren Carter', 'lauren@example.com'),
+('Kevin Green', 'kevin@example.com'),
+('Megan Hall', 'megan@example.com');
+
+
+INSERT INTO staff (role, salary) VALUES
+('Manager', 50000.00),
+('Sales Associate', 30000.00),
+('Customer Service Representative', 28000.00),
+('Accountant', 60000.00),
+('IT Specialist', 55000.00);
+
+INSERT INTO bookings (date, table_number, staff_id) VALUES
+(NOW(), 1, 1),
+(NOW(), 2, 2),
+(NOW(), 3, 3),
+(NOW(), 4, 4),
+(NOW(), 5, 5),
+(NOW(), 6, 1),
+(NOW(), 7, 2),
+(NOW(), 8, 3),
+(NOW(), 9, 4),
+(NOW(), 10, 5),
+(NOW(), 1, 1),
+(NOW(), 2, 2),
+(NOW(), 3, 3);
+
+INSERT INTO delivery_status (date, status) VALUES
+(NOW(), 'In Transit'),
+(NOW(), 'Out for Delivery'),
+(NOW(), 'Delivered'),
+(NOW(), 'Delayed'),
+(NOW(), 'Processing'),
+(NOW(), 'Cancelled');
+
+INSERT INTO menu_items (starters, courses, drinks_and_desserts) VALUES
+('Caesar Salad', 'Grilled Salmon', 'Iced Tea'),
+('Bruschetta', 'Chicken Alfredo Pasta', 'Chocolate Cake'),
+('Caprese Salad', 'Beef Tenderloin Steak', 'Red Wine'),
+('Garlic Bread', 'Vegetable Lasagna', 'Vanilla Ice Cream'),
+('Spinach Dip', 'Shrimp Scampi', 'Mojito'),
+('Stuffed Mushrooms', 'Margherita Pizza', 'Cappuccino'),
+('Chicken Wings', 'Lobster Ravioli', 'Strawberry Cheesecake'),
+('Potato Skins', 'BBQ Ribs', 'Cola');
+
+INSERT INTO menus (name, cuisines, menu_items_id) VALUES
+('Summer Menu', 'Italian', 1),
+('Spring Menu', 'French', 2),
+('Autumn Menu', 'American', 3),
+('Winter Menu', 'Mexican', 4),
+('Holiday Menu', 'Japanese', 5),
+('Special Menu', 'Indian', 6),
+('Vegetarian Menu', 'Mediterranean', 7),
+('Healthy Menu', 'Thai', 8),
+('Seafood Menu', 'Greek', 1),
+('Grill Menu', 'Spanish', 2),
+('Kids Menu', 'Chinese', 3),
+('Dessert Menu', 'Korean', 4),
+('Brunch Menu', 'Vietnamese', 5),
+('Party Menu', 'German', 6);
+
+
+INSERT INTO orders (date, quantity, total_cost, delivery_status_id, booking_id, customer_id, menu_id) VALUES
+(NOW(), 2, 25.00, 1, 1, 1, 1),
+(NOW(), 1, 15.00, 2, 2, 2, 2),
+(NOW(), 3, 35.00, 3, 3, 3, 3),
+(NOW(), 2, 30.00, 4, 4, 4, 4),
+(NOW(), 1, 20.00, 5, 5, 5, 5),
+(NOW(), 2, 40.00, 6, 6, 6, 6),
+(NOW(), 3, 45.00, 1, 7, 7, 7),
+(NOW(), 1, 20.00, 2, 8, 8, 8),
+(NOW(), 2, 30.00, 3, 9, 9, 9),
+(NOW(), 2, 25.00, 4, 10, 10, 10),
+(NOW(), 1, 15.00, 5, 11, 11, 11),
+(NOW(), 3, 40.00, 6, 12, 12, 12),
+(NOW(), 2, 35.00, 1, 13, 13, 1),
+(NOW(), 1, 20.00, 2, 1, 14, 2),
+(NOW(), 3, 45.00, 3, 2, 15, 3),
+(NOW(), 2, 30.00, 4, 3, 16, 4),
+(NOW(), 1, 15.00, 5, 4, 17, 5),
+(NOW(), 2, 40.00, 6, 5, 18, 6),
+(NOW(), 3, 35.00, 1, 6, 19, 7),
+(NOW(), 1, 20.00, 2, 7, 20, 8),
+(NOW(), 2, 30.00, 3, 8, 1, 9),
+(NOW(), 2, 25.00, 4, 9, 2, 10),
+(NOW(), 1, 15.00, 5, 10, 3, 11),
+(NOW(), 3, 40.00, 6, 11, 4, 12),
+(NOW(), 2, 35.00, 1, 12, 5, 1),
+(NOW(), 1, 20.00, 2, 13, 6, 2),
+(NOW(), 3, 45.00, 3, 1, 7, 3),
+(NOW(), 2, 30.00, 4, 2, 8, 4);
