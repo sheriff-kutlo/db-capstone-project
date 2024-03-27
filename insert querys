@@ -107,3 +107,7 @@ INSERT INTO orders (date, quantity, total_cost, delivery_status_id, booking_id, 
 (NOW(), 1, 20.00, 2, 13, 6, 2),
 (NOW(), 3, 45.00, 3, 1, 7, 3),
 (NOW(), 2, 30.00, 4, 2, 8, 4);
+
+# Task 1 create OrdersView view
+USE `LittleLemonDB`;
+CREATE  OR REPLACE VIEW `OrdersView` AS select order_id as OrderID, quantity as Quantity, total_cost as Cost from orders where quantity > 2;
