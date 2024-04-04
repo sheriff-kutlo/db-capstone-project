@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Kutlo Will Mangwa</h1>
 
-<h2 align="center">Welcome to My Capstone Adventure! 🚀</h3>
+<h2 align="center">Welcome to My Meta Professional Database Engineer Capstone Adventure! 🚀</h3>
 
 <h3>Laying the Foundation</h3>
 
