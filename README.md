@@ -14,6 +14,12 @@
 - Mastering the Art of SQL: I flex my SQL muscles, employing a variety of statements—INSERT, UPDATE, DELETE, and SELECT—to manipulate data with finesse.
 - Automating Processes: I introduce automation into the mix, implementing triggers to streamline actions and elevate the efficiency of my database system.
 
+<h3>Illuminating Business Pathways</h3>
+
+- Unlocking Insights: With a thirst for knowledge, I connect my data sources to Tableau, preparing them for analysis and focusing on the most relevant data points.
+- Visualizing Success: Armed with Tableau's powerful visualization capabilities, I craft compelling and interactive visualizations and dashboards, shedding light on Little Lemon's path to success.
+- Empowering Decision-Making: I empower Little Lemon with actionable insights, providing clear and relevant answers to crucial business questions.
+
 - 📫 How to reach me **willmangwa@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
