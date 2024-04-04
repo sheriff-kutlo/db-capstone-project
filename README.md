@@ -1,6 +1,7 @@
 <h1 align="center">Welcome to My Capstone Adventure! 🚀</h1>
 
 <h3>Laying the Foundation</h3>
+
 - Setting Up My Database: I kickstart my journey by configuring a MySQL database using MySQL Workbench and a MySQL instance server.
 - Crafting the Blueprint: With precision and care, I design a meticulously structured entity-relationship diagram using MySQL Workbench, ensuring it adheres to the three fundamental normal forms.
 - Bringing Plans to Life: Translating theory into practice, I transform my thoughtfully crafted entity model into a tangible database schema within the MySQL server.
