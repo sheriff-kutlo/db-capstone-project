@@ -1,5 +1,6 @@
-<h1 align="center">Hi 👋, I'm Kutlo Will Mangwa</h1>
-<h3 align="center">Aspiring Data Engineer</h3>
+<h1 align="center">Welcome to My Capstone Adventure! 🚀</h1>
+
+<h3>Laying the Foundation</h3>
 
 - 📫 How to reach me **willmangwa@gmail.com**
 
