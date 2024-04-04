@@ -1,3 +1,5 @@
+use LittleLemonDB;
+
 delimiter //
 
 create procedure if not exists CheckBooking(in booking_date datetime, in table_no int)

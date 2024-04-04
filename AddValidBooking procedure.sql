@@ -1,3 +1,5 @@
+use LittleLemonDB;
+
 delimiter //
 
 create procedure if not exists AddValidBooking(in booking_date datetime, in table_no int, in customerID BIGINT)

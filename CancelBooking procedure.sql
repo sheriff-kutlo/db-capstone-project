@@ -1,3 +1,5 @@
+use LittleLemonDB;
+
 delimiter //
 
 create procedure if not exists CancelBooking(in bookingID BIGINT)
