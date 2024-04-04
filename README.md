@@ -7,6 +7,13 @@
 - Bringing Plans to Life: Translating theory into practice, I transform my thoughtfully crafted entity model into a tangible database schema within the MySQL server.
 - Taking Ownership: I assert control over my project by committing it using Git, my trusty companion in version control, and securely storing it on GitHub.
 
+<h3>Unleashing the Power of Data</h3>
+
+- Crafting Insights: With a keen eye for detail, I delve deep into the data to extract valuable insights, creating sales reports using SQL queries, procedures, and prepared statements.
+- Creating a Booking System: Armed with SQL prowess, I construct a robust table booking system, ensuring seamless management of guests visiting the restaurant.
+- Mastering the Art of SQL: I flex my SQL muscles, employing a variety of statements—INSERT, UPDATE, DELETE, and SELECT—to manipulate data with finesse.
+- Automating Processes: I introduce automation into the mix, implementing triggers to streamline actions and elevate the efficiency of my database system.
+
 - 📫 How to reach me **willmangwa@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
